@@ -180,8 +180,7 @@ function handleAction(
         let firstLog = outcome.logs[0]
         let secondLog = outcome.logs[1]
         let thirdLog = outcome.logs[2]
-        let fourthLog = outcome.logs[3]
-        let fifthLog = outcome.logs[4]
+        
 
         let firstParts = firstLog.split(' ')
         logs.epoch = firstParts[1].split(':')[0]
